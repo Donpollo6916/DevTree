@@ -1,7 +1,5 @@
 import { Router } from 'express'
-// Routing 
-// Request significa aquella peticion que estamos realizando (envia)
-// Response significa lo que ofrece la aplicacion es la respuesta que esta  dando la aplicacion (respuesta)
+import { IUser } from "./models/Users"
 
 const router = Router();
 /**Auteticacion y registro*/
